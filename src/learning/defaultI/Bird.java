@@ -1,5 +1,6 @@
-package main.defaultinterface;
+package learning.defaultI;
 
+@FunctionalInterface
 public interface Bird {
     default void fly(){
         System.out.println("I can fly");
@@ -9,6 +10,6 @@ public interface Bird {
     boolean canFly();
 
     private void sing(){
-        System.out.println("I can sing");
+        System.out.println("I can sing too");
     }
 }
