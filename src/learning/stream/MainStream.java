@@ -49,5 +49,10 @@ public class MainStream {
         System.out.println("------------------");
         System.out.println(stream2.count());
 
+        //From Iterable
+        Stream<Integer> stream3 = Stream.iterate(1, i -> i + 1).limit(10);
+        System.out.println("------------------");
+        System.out.println(stream3.count());
+
     }
 }
