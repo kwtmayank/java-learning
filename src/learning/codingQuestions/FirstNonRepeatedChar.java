@@ -8,7 +8,7 @@ public class FirstNonRepeatedChar {
         String str = "swiss";
         
         // Using LinkedHashMap to maintain insertion order
-        Map<Character, Integer> charCount = new LinkedHashMap<>();
+        LinkedHashMap<Character, Integer> charCount = new LinkedHashMap<>();
         
         // Count occurrences of each character
         for (char c : str.toCharArray()) {
